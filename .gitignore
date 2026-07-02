@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# local virtualenv / caches
+venv/
+tmp/
+
+# generated pipeline data, checkpoints, logs
+storage/
+temp_train_data.*
+temp_eval_data.*
+all_invalid.txt
+wandb/
+*.log
